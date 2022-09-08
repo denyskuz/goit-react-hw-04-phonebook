@@ -1,0 +1,18 @@
+.container {
+    border-bottom: 1px solid var(--default-border-color);
+    padding-bottom: 40px;
+}
+.title {
+    font-style: italic;
+    font-size: 16px;
+    color: #625f5f;
+}
+
+.input {
+    border-radius: var(--default-border-radius);
+    border: 1px solid var(--default-border-color);
+    height: 30px;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+}

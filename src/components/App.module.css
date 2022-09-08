@@ -1,0 +1,15 @@
+:root {
+  --default-border-color: #c5c5c5;
+  --font-size-title: 25px;
+  --default-border-radius: 4px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}

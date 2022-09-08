@@ -1,0 +1,40 @@
+.input {
+  border-radius: var(--default-border-radius);
+  border: 1px solid var(--default-border-color);
+  height: 30px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  border-radius: var(--default-border-radius);
+  padding: 10px;
+  background: rgb(32, 193, 242);
+  color: #fff;
+  text-transform: uppercase;
+  border-color: rgb(32, 193, 242);
+  display: inline-block;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  transition: .3s;
+}
+
+.btn:hover {
+  opacity: .9;
+  transition: .3s;
+}
+
+.error {
+  color: red;
+  margin: 0;
+  font-size: 13px;
+}
